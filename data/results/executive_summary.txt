@@ -1,0 +1,41 @@
+
+A/B TEST RESULTS: Dynamic ROP vs Fixed ROP
+============================================================
+
+Test Duration: 90 days
+Significance Level: 0.05
+
+KEY FINDINGS:
+------------------------------------------------------------
+
+Fill Rate (%):
+  Improvement: +11.8% ✓ SIGNIFICANT
+  p-value: 0.0199
+
+Average Inventory (units):
+  Improvement: +20.6% ✗ Not Significant
+  p-value: 0.0815
+
+Stockout Count:
+  Improvement: -65.9% ✓ SIGNIFICANT
+  p-value: 0.0204
+
+============================================================
+BUSINESS IMPACT:
+------------------------------------------------------------
+Annual Savings: $-299,137
+Payback Period: inf months
+3-Year NPV: $-793,909
+ROI (Year 1): -698.3%
+
+============================================================
+RECOMMENDATION:
+------------------------------------------------------------
+
+✓ IMPLEMENT DYNAMIC REORDER POINTS
+
+Dynamic ROP shows statistically significant improvements in:
+  - Fill rate: +11.8%
+  - Stockout reduction: -65.9%
+
+============================================================
